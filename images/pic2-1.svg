@@ -1,0 +1,35 @@
+<svg id="pic1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="197" height="249" viewBox="0 0 197 249">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_15" data-name="Clip 15" d="M0,0H10.385V10.39H0Z" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Clip_22" data-name="Clip 22" d="M0,249H197V0H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Fill_1" data-name="Fill 1" d="M0,37H187V0H0Z" transform="translate(5 94)" fill="#323232"/>
+  <g id="Group_27" data-name="Group 27">
+    <path id="Fill_2" data-name="Fill 2" d="M44.957,22.487A22.479,22.479,0,1,1,22.479,0,22.482,22.482,0,0,1,44.957,22.487" transform="translate(30.733 47.98)" fill="#f7f7f7"/>
+    <path id="Stroke_4" data-name="Stroke 4" d="M44.957,22.487A22.479,22.479,0,1,1,22.479,0,22.482,22.482,0,0,1,44.957,22.487Z" transform="translate(30.733 47.98)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="0.5"/>
+    <path id="Fill_6" data-name="Fill 6" d="M45.3,22.654A22.648,22.648,0,1,1,22.648,0,22.651,22.651,0,0,1,45.3,22.654" transform="translate(102.133 48.026)" fill="#c0e2aa"/>
+    <path id="Fill_8" data-name="Fill 8" d="M45.3,22.654A22.648,22.648,0,1,1,22.648,0,22.651,22.651,0,0,1,45.3,22.654" transform="translate(135.081 48.026)" fill="#323232"/>
+    <path id="Stroke_10" data-name="Stroke 10" d="M0,0V172.6H186.616V0" transform="translate(5.193 75.711)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Fill_12" data-name="Fill 12" d="M0,5.195A5.193,5.193,0,1,1,5.193,10.39,5.195,5.195,0,0,1,0,5.195" transform="translate(0 70.775)" fill="#231815"/>
+    <g id="Group_16" data-name="Group 16" transform="translate(186.615 70.775)">
+      <path id="Clip_15-2" data-name="Clip 15" d="M0,0H10.385V10.39H0Z" fill="none"/>
+      <g id="Group_16-2" data-name="Group 16" clip-path="url(#clip-path)">
+        <path id="Fill_14" data-name="Fill 14" d="M10.386,5.195A5.193,5.193,0,1,0,5.193,10.39a5.195,5.195,0,0,0,5.193-5.195" fill="#231815"/>
+      </g>
+    </g>
+    <path id="Stroke_17" data-name="Stroke 17" d="M.691,0V37.547" transform="translate(97.809 141.927)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Fill_19" data-name="Fill 19" d="M0,0,4.012,14.978,8.026,0Z" transform="translate(94.488 176.737)" fill="#231815"/>
+    <path id="Clip_22-2" data-name="Clip 22" d="M0,249H197V0H0Z" fill="none"/>
+    <g id="Mask_Group_7" data-name="Mask Group 7" clip-path="url(#clip-path-2)">
+      <path id="Stroke_21" data-name="Stroke 21" d="M0,31.776H24.86V0H0Z" transform="translate(31.91 215.842)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+      <path id="Stroke_23" data-name="Stroke 23" d="M0,31.776H24.86V0H0Z" transform="translate(67.818 215.842)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+      <path id="Stroke_24" data-name="Stroke 24" d="M0,31.776H24.86V0H0Z" transform="translate(102.346 215.842)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+      <path id="Stroke_25" data-name="Stroke 25" d="M0,31.776H24.86V0H0Z" transform="translate(135.492 215.842)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+      <path id="Stroke_26" data-name="Stroke 26" d="M40.742,7.836V22.73a7.833,7.833,0,0,1-7.835,7.838H13.6L7.835,37.777V30.568A7.833,7.833,0,0,1,0,22.73V7.836A7.833,7.833,0,0,1,7.835,0H32.907A7.833,7.833,0,0,1,40.742,7.836Z" transform="translate(152.064 0.519)" fill="none" stroke="#323232" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

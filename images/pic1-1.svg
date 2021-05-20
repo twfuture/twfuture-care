@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="182.92" height="164.56" viewBox="0 0 182.92 164.56">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_4" data-name="Clip 4" d="M0,0H12V8.892H0Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="pic1" transform="translate(0.375 0.56)">
+    <path id="Stroke_1" data-name="Stroke 1" d="M36.641,0A79.776,79.776,0,0,1,15.574,75.792,80.1,80.1,0,0,1,0,87.928" transform="translate(143 71.133)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_5" data-name="Group 5" transform="translate(134 155.108)">
+      <path id="Clip_4-2" data-name="Clip 4" d="M0,0H12V8.892H0Z" transform="translate(0 0)" fill="none"/>
+      <g id="Group_5-2" data-name="Group 5" clip-path="url(#clip-path)">
+        <path id="Fill_3" data-name="Fill 3" d="M9,0,0,8.892,12,5.957Z" transform="translate(0 0)" fill="#231815"/>
+      </g>
+    </g>
+    <path id="Stroke_6" data-name="Stroke 6" d="M24.206,0,0,44.587H24.206L12.1,81.012,43,30.914H19.516Z" transform="translate(39 30.627)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Fill_8" data-name="Fill 8" d="M.01,20.106A20.893,20.893,0,0,1,21.649.01,20.858,20.858,0,0,1,41.99,21.388a20.9,20.9,0,0,1-21.639,20.1A20.855,20.855,0,0,1,.01,20.106" transform="translate(48 116.578)" fill="#231815"/>
+    <path id="Fill_10" data-name="Fill 10" d="M42,20.746A20.874,20.874,0,0,1,21,41.494,20.875,20.875,0,0,1,0,20.746,20.875,20.875,0,0,1,21,0,20.874,20.874,0,0,1,42,20.746" transform="translate(97 109.663)" fill="#f7f7f7"/>
+    <path id="Stroke_12" data-name="Stroke 12" d="M42,20.746A20.874,20.874,0,0,1,21,41.494,20.875,20.875,0,0,1,0,20.746,20.875,20.875,0,0,1,21,0,20.874,20.874,0,0,1,42,20.746Z" transform="translate(97 109.663)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="0.5"/>
+    <path id="Fill_14" data-name="Fill 14" d="M42,20.746A20.874,20.874,0,0,1,21,41.494,20.875,20.875,0,0,1,0,20.746,20.875,20.875,0,0,1,21,0,20.874,20.874,0,0,1,42,20.746" transform="translate(119 86.94)" fill="#c0e2aa"/>
+    <path id="Stroke_16" data-name="Stroke 16" d="M49.108,5.148a81.8,81.8,0,0,1,86.1,18.434,80.007,80.007,0,0,1,0,113.87,81.769,81.769,0,0,1-114.9,0A80.016,80.016,0,0,1,0,103.94" transform="translate(6)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4 4"/>
+    <path id="Fill_18" data-name="Fill 18" d="M6.141,8.584A4.515,4.515,0,0,1,.312,6.067,4.426,4.426,0,0,1,2.859.308a4.516,4.516,0,0,1,5.83,2.517A4.427,4.427,0,0,1,6.141,8.584" transform="translate(51 0.988)" fill="#231815"/>
+    <path id="Fill_20" data-name="Fill 20" d="M8.829,3.234A4.508,4.508,0,0,0,3.273.169a4.438,4.438,0,0,0-3.1,5.489A4.507,4.507,0,0,0,5.726,8.722a4.44,4.44,0,0,0,3.1-5.489" transform="translate(2 99.783)" fill="#231815"/>
+    <path id="Stroke_22" data-name="Stroke 22" d="M0,6.558V19.022a6.546,6.546,0,0,0,6.538,6.559H22.652l4.81,6.033V25.581A6.546,6.546,0,0,0,34,19.022V6.558A6.546,6.546,0,0,0,27.462,0H6.538A6.546,6.546,0,0,0,0,6.558Z" transform="translate(0 25.687)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="0.75"/>
+  </g>
+</svg>
