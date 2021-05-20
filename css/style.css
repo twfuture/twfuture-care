@@ -70,7 +70,7 @@ a{
 	overflow: hidden;
 }
 .main-top{
-	background-image: url(/images/bg-main-top.svg);
+	background-image: url(../images/bg-main-top.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 895px;
@@ -83,7 +83,7 @@ a{
 .main-logo{
 	width: 259px;
 	height: 350px;
-	background-image: url(/images/main-logo.svg);
+	background-image: url(../images/main-logo.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	overflow: hidden;
@@ -145,7 +145,7 @@ a{
 	}
 	.mtxt-wrap p:nth-of-type(3){
 		order:4;
-		background-image: url(/images/arrow.svg);
+		background-image: url(../images/arrow.svg);
 		background-repeat: no-repeat;
 		background-position: center bottom;
 		margin-bottom: 0;
@@ -253,7 +253,7 @@ header .container{
 .logo{
 	width: 274px;
 	height: 52px;
-	background-image: url(/images/logo.svg);
+	background-image: url(../images/logo.svg);
 	background-size: 100%;
 	background-size: contain;
 	overflow: hidden;
@@ -285,7 +285,7 @@ header .container{
 
 @media screen and (max-width:576px){
 	.logo{
-		background-image: url(/images/logo.svg);
+		background-image: url(../images/logo.svg);
 	background-size: contain;
 		width: 235px;
 		height: 45px;
@@ -363,7 +363,7 @@ header .container{
 	
 }
 .b01 .ans h2 span{
-	background-image: url(/images/show-ans.svg);
+	background-image: url(../images/show-ans.svg);
 	background-size: 28px;
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -975,7 +975,7 @@ flex-direction:column;}
 }
 .kb-link li{
 	padding:4px 0 4px 30px;
-	background-image: url(/images/link-icon.svg);
+	background-image: url(../images/link-icon.svg);
 	background-repeat: no-repeat;
 	background-position: left center;
 }
@@ -990,44 +990,44 @@ flex-direction:column;}
 	background-repeat: no-repeat;
 }
 #kb1-1 .kb-title{
-	background-image: url(/images/kb1-1.svg);
+	background-image: url(../images/kb1-1.svg);
 	background-position: 243px 41px;
 	background-size: 389px;
 }
 #kb1-2 .kb-title{
-	background-image: url(/images/kb1-2.svg);
+	background-image: url(../images/kb1-2.svg);
 	background-position: 262px 50px;
 	background-size: 367px;
 }
 #kb1-3 .kb-title{
-	background-image: url(/images/kb1-3.svg);
+	background-image: url(../images/kb1-3.svg);
 	background-position: 324px 32px;
 	background-size: 174px;
 }
 #kb1-4 .kb-title{
-	background-image: url(/images/kb1-4.svg);
+	background-image: url(../images/kb1-4.svg);
 	background-position: 272px 44px;
 	background-size: 409px;
 }
 #kb1-5 .kb-title{
-	background-image: url(/images/kb1-5.svg);
+	background-image: url(../images/kb1-5.svg);
 	background-position: 372px 25px;
 	background-size: 179px
 }
 #kb1-6 .kb-title{
-	background-image: url(/images/kb1-6.svg);
+	background-image: url(../images/kb1-6.svg);
 	background-position: 355px 30px;
 	background-size: 140px
 }
 
 #kb2-1 .kb-title,#kb2-2 .kb-title,#kb2-3 .kb-title,#kb2-4 .kb-title,#kb2-5 .kb-title{
-	background-image: url(/images/kb2-1.svg);
+	background-image: url(../images/kb2-1.svg);
 	background-position: 303px 85px;
 	background-size: 542px;
 }
 
 #kb3-1 .kb-title{
-	background-image: url(/images/kb3-1.svg);
+	background-image: url(../images/kb3-1.svg);
 	background-position: 370px 47px;
 	background-size: 438px;
 }
@@ -1096,7 +1096,7 @@ flex-direction:column;}
 	color: #fff;
 }
 .top-know{
-	background-image: url(/images/bg-tw.svg);
+	background-image: url(../images/bg-tw.svg);
 	background-repeat: no-repeat;
 	background-position: right top 173px;
 }
@@ -1153,7 +1153,7 @@ flex-direction:column;}
 }
 .link{
 	text-decoration: none;
-	background-image: url(/images/link.svg);
+	background-image: url(../images/link.svg);
 	background-repeat: no-repeat;
 	display: inline-block;
 	padding-left: 30px;
@@ -1304,7 +1304,7 @@ flex-direction:column;}
 
 
 .alter-txt{
-	background-image: url(/images/alter.svg);
+	background-image: url(../images/alter.svg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	min-height: 45px;
@@ -1352,7 +1352,7 @@ flex-direction:column;}
 .join-druing span{
 	display: inline-block;
 	padding-left: 23px;
-	background-image: url(/images/join-druing.svg);
+	background-image: url(../images/join-druing.svg);
 	background-repeat: no-repeat;
 	background-position: left center;
 }
@@ -1467,7 +1467,7 @@ flex-direction:column;}
 .qablock h3{
 	text-align: center;
 	background-color: #fff;
-	background-image: url(/images/title-open.svg);
+	background-image: url(../images/title-open.svg);
 	background-repeat: no-repeat;
 	background-position: right 15px center;
 	padding:15px 50px 15px 28px;
@@ -1484,7 +1484,7 @@ flex-direction:column;}
 }
 
 .qablock .title-close{
-background-image: url(/images/title-close.svg);
+background-image: url(../images/title-close.svg);
 transition-duration: 500ms;}
 
 
@@ -1501,7 +1501,7 @@ footer .container{
 }
 .f-o-logo{
 	flex-basis:213px;
-	background-image: url(/images/o-logo.svg);
+	background-image: url(../images/o-logo.svg);
 	background-size: 213px;
 	background-repeat: no-repeat;
 	margin-right: 40px;
@@ -1516,7 +1516,7 @@ footer .container{
 	text-indent: -500px;
 	width: 327px;
 	height: 62px;
-	background-image: url(/images/logo.svg);
+	background-image: url(../images/logo.svg);
 	background-size: contain;
 	margin-bottom: 20px;
 	overflow: hidden;
