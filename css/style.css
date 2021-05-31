@@ -23,12 +23,6 @@ strong{
 a{
 	color: #509AFB;
 }
-
-a.disabled {
-  pointer-events: none;
-  cursor: default;
-}
-
 .container{
 	max-width: 1280px;
 	margin:auto;
@@ -1614,6 +1608,60 @@ footer .container{
 
 }
 
+/*lightbox樣式*/
+
+.cover{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 10000000;
+}
+
+.cover.close{
+	display: none;
+}
+
+.lightbox{
+	max-width: 360px;
+	box-sizing: border-box;
+	padding:25px;
+	background-color: #fff;
+	text-align: justify;
+}
+
+.lightbox .btn{
+	width: 100%;
+	text-align: center;
+	background-color: #7DAE60;
+	color: #fff;
+	line-height: 40px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.test-hint{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background-color: #fff;
+	max-width: 210px;
+	box-sizing: border-box;
+	padding:15px;
+	background-color: #fff;
+	z-index: 10000001;
+	display: none;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.test-hint.open{
+	display: block;
+}
 
 
 /*手機內頁其他樣式*/
