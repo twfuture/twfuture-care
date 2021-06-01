@@ -52,8 +52,6 @@
 				$(".kb").css("display", "none");
 				$("#kb1-1").css("display", "block");
 				$("#link1-1").css("display", "block");
-				$(".sec-tab span").removeClass("current");
-				$("#st1-1").addClass("current");
 			})
 			$("#ftb-2").click(function(){
 				$(".kb").css("display", "none");
@@ -66,9 +64,11 @@
 				$(".kb").css("display", "none");
 				$("#kb3-1").css("display", "block");
 				$("#link3-1").css("display", "block");
+				$(".sec-tab span").removeClass("current");
+				$("#st3-1").addClass("current");
 			})
-			var st_list = ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6',
-			'2-1', '2-2', '2-3', '2-4', '2-5'];
+			var st_list = ['2-1', '2-2', '2-3', '2-4', '2-5', '2-6',
+			'3-1', '3-2', '3-3', '3-4', '3-5'];
 			st_list.forEach(function(item){
 				var st = '#st' + item;
 				var kb = '#kb' + item;
@@ -298,57 +298,84 @@
 					<div class="desktop-tab-group">
 						<ul class="first-tab">
 							<li class="current">
-								<div class="ftb" id="ftb-1">發電方式</div>
+								<div class="ftb" id="ftb-1">能源管理</div>
+							</li>
+							<li>
+								<div class="ftb" id="ftb-2">發電方式</div>
 								<div class="sec-tab">
-									<span class="current" id="st1-1">天然氣</span>
-									<span id="st1-2">燃煤</span>
-									<span id="st1-3">太陽能</span>
-									<span id="st1-4">風能</span>
-									<span id="st1-5">核能</span>
-									<span id="st1-6">其他可能</span>
+									<span class="current" id="st2-1">天然氣</span>
+									<span id="st2-2">燃煤</span>
+									<span id="st2-3">太陽能</span>
+									<span id="st2-4">風能</span>
+									<span id="st2-5">核能</span>
+									<span id="st2-6">其他可能</span>
 								</div>
 							</li>
 							<li>
-								<div class="ftb" id="ftb-2">國際趨勢</div>
+								<div class="ftb" id="ftb-3">國際趨勢</div>
 								<div class="sec-tab">
-									<span id="st2-1">國際減碳趨勢</span>
-									<span id="st2-2">德國</span>
-									<span id="st2-3">日本</span>
-									<span id="st2-4">韓國</span>
-									<span id="st2-5">台灣</span>
+									<span id="st3-1">國際減碳趨勢</span>
+									<span id="st3-2">德國</span>
+									<span id="st3-3">日本</span>
+									<span id="st3-4">韓國</span>
+									<span id="st3-5">台灣</span>
 								</div>
-							</li>
-							<li>
-								<div class="ftb" id="ftb-3">其他知識</div>
 							</li>
 						</ul>
 					</div>
 					<div class="mobile-tab-group at-index">
 						<section>
+							<h3>能源管理</h3>
+							<div class="tab-link-group">
+								<a href="knowledge/1-1.html#mkb">能源管理</a>
+							</div>
 							<h3>發電方式</h3>
 							<div class="tab-link-group">
-								<a href="knowledge/1-1.html#mkb">天然氣</a>
-								<a href="knowledge/1-2.html#mkb">燃煤</a>
-								<a href="knowledge/1-3.html#mkb">太陽能</a>
-								<a href="knowledge/1-4.html#mkb">風能</a>
-								<a href="knowledge/1-5.html#mkb">核能</a>
-								<a href="knowledge/1-6.html#mkb">其他可能</a>
+								<a href="knowledge/2-1.html#mkb">天然氣</a>
+								<a href="knowledge/2-2.html#mkb">燃煤</a>
+								<a href="knowledge/2-3.html#mkb">太陽能</a>
+								<a href="knowledge/2-4.html#mkb">風能</a>
+								<a href="knowledge/2-5.html#mkb">核能</a>
+								<a href="knowledge/2-6.html#mkb">其他可能</a>
 							</div>
 						</section>
 						<section>
 							<h3>國際趨勢</h3>
 							<div class="tab-link-group">
-								<a href="knowledge/2-1.html#mkb">減碳趨勢</a>
-								<a href="knowledge/2-2.html#mkb">德國</a>
-								<a href="knowledge/2-3.html#mkb">日本</a>
-								<a href="knowledge/2-4.html#mkb">韓國</a>
-								<a href="knowledge/2-5.html#mkb">台灣</a>
-								<a href="knowledge/3-1.html#mkb">其他相關</a>
+								<a href="knowledge/3-1.html#mkb">減碳趨勢</a>
+								<a href="knowledge/3-2.html#mkb">德國</a>
+								<a href="knowledge/3-3.html#mkb">日本</a>
+								<a href="knowledge/3-4.html#mkb">韓國</a>
+								<a href="knowledge/3-5.html#mkb">台灣</a>
+								
 							</div>
 						</section>
 					</div>
 					<div class="knowledge-block">
 						<div id="kb1-1" class="kb">
+							<div class="kb-title">
+								<h3>電源管理</h3>
+							</div>
+							<div class="kb-content">
+								<h4>電力調度</h4>
+								<p>由於再生能源的發電變動較大，需搭配更為靈活的電網，比較能更有效率地調度電力。目前正在進行輸配電自動化、變電所智慧化、建置智慧電錶系統等，收集更多電網數據，並以大數據分析及智慧化配電管理，提昇供電的可靠度，強化運轉調度品質。</p>
+								<h4>需量反應</h4>
+								<p>需量反應，是指透過時間電價等等方式，鼓勵用戶在用電尖峰時自主節電，減少尖峰時的電力負載。</p>
+								<p>目前台電已有「需量競價」政策，可以在前一天先預測可能的電力負載，並開放用電大戶競價。得標者要在尖峰時段進行節電，台電會依據節電多寡提供電費補助。</p>
+								<h4>節能</h4>
+								<p>除了增加供電外，用戶的節能也是重要的一環。節能分為住商部分的節能，以及工業用電的節能。</p>
+								<p>住商部分，目前有「住商共推縣市節能行動」，包含補助更換更為節能的電器，推動智慧電錶，讓住商用戶更了解自己的用電結構，進而能夠進一步節電。</p>
+								<p>在工業部分，包含推動能源密集產業轉型，進行製程改善或汰舊換新，並協助建置能源管理系統等等，協助工業部門更有效率地用電。</p>
+								<p>不過，目前台灣在工業節能部分還有許多政策需要改善。一者，目前節能並未像空污一樣，沒有達到目標就一直罰到改善，只有罰 10 萬，嚇阻效果不高。為了改善投資只計算財務因素，不計算公司所造成的環境、社會等成本，近期開始推廣 ESG 投資，加入環境、社會和企業治理因素，以投資鼓勵公司進行改善。不過在 ESG 投資壓力方面，目前還無法做到充分的訊息揭露，因此也難以達到效果。再者，由於電價過低，廠商普遍沒有強烈的誘因投資更大幅度節能的設備，或進行更大幅度的改善。</p>
+							</div>
+							<div class="kb-footer">
+								<h4>更多參考資料</h4>
+								<ul class="kb-link">
+									<li><a href="https://www.youtube.com/watch?v=WCH0CUTqoCc" target="_blank">台電推「需量競價」 提高用電穩定度</a></li>
+								</ul>
+							</div>
+						</div>
+						<div id="kb2-1" class="kb">
 							<div class="kb-title">
 								<h3>天然氣</h3>
 							</div>
@@ -398,7 +425,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb1-2" class="kb">
+						<div id="kb2-2" class="kb">
 							<div class="kb-title">
 								<h3>燃煤</h3>
 							</div>
@@ -430,7 +457,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb1-3" class="kb">
+						<div id="kb2-3" class="kb">
 							<div class="kb-title">
 								<h3>太陽能</h3>
 							</div>
@@ -450,7 +477,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb1-4" class="kb">
+						<div id="kb2-4" class="kb">
 							<div class="kb-title">
 								<h3>風能</h3>
 							</div>
@@ -462,7 +489,7 @@
 								<p>不過，在台灣，風電的發展也遇到一些阻礙。其一是與漁民團體的溝通目前缺乏制度化的規範，導致溝通上容易出現問題；再者，在風機國產化的目標上，由於需要提昇台灣廠商的技術能力，是否真的可以在時限內製作出完善的產品，也會是一大挑戰。</p>
 							</div>
 						</div>
-						<div id="kb1-5" class="kb">
+						<div id="kb2-5" class="kb">
 							<div class="kb-title">
 								<h3>核能</h3>
 							</div>
@@ -512,7 +539,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb1-6" class="kb">
+						<div id="kb2-6" class="kb">
 							<div class="kb-title">
 								<h3>其他可能</h3>
 							</div>
@@ -537,7 +564,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb2-1" class="kb">
+						<div id="kb3-1" class="kb">
 							<div class="kb-title">
 								<h3>國際減碳趨勢</h3>
 							</div>
@@ -553,7 +580,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb2-2" class="kb">
+						<div id="kb3-2" class="kb">
 							<div class="kb-title">
 								<h3>德國轉型方案</h3>
 							</div>
@@ -570,7 +597,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb2-3" class="kb">
+						<div id="kb3-3" class="kb">
 							<div class="kb-title">
 								<h3>日本轉型方案</h3>
 							</div>
@@ -587,7 +614,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb2-4" class="kb">
+						<div id="kb3-4" class="kb">
 							<div class="kb-title">
 								<h3>韓國轉型方案</h3>
 							</div>
@@ -606,7 +633,7 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb2-5" class="kb">
+						<div id="kb3-5" class="kb">
 							<div class="kb-title">
 								<h3>台灣轉型方案</h3>
 							</div>
@@ -624,44 +651,21 @@
 								</ul>
 							</div>
 						</div>
-						<div id="kb3-1" class="kb">
-							<div class="kb-title">
-								<h3>其他相關知識</h3>
-							</div>
-							<div class="kb-content">
-								<h4>電力調度</h4>
-								<p>由於再生能源的發電變動較大，需搭配更為靈活的電網，比較能更有效率地調度電力。目前正在進行輸配電自動化、變電所智慧化、建置智慧電錶系統等，收集更多電網數據，並以大數據分析及智慧化配電管理，提昇供電的可靠度，強化運轉調度品質。</p>
-								<h4>需量反應</h4>
-								<p>需量反應，是指透過時間電價等等方式，鼓勵用戶在用電尖峰時自主節電，減少尖峰時的電力負載。</p>
-								<p>目前台電已有「需量競價」政策，可以在前一天先預測可能的電力負載，並開放用電大戶競價。得標者要在尖峰時段進行節電，台電會依據節電多寡提供電費補助。</p>
-								<h4>節能</h4>
-								<p>除了增加供電外，用戶的節能也是重要的一環。節能分為住商部分的節能，以及工業用電的節能。</p>
-								<p>住商部分，目前有「住商共推縣市節能行動」，包含補助更換更為節能的電器，推動智慧電錶，讓住商用戶更了解自己的用電結構，進而能夠進一步節電。</p>
-								<p>在工業部分，包含推動能源密集產業轉型，進行製程改善或汰舊換新，並協助建置能源管理系統等等，協助工業部門更有效率地用電。</p>
-								<p>不過，目前台灣在工業節能部分還有許多政策需要改善。一者，目前節能並未像空污一樣，沒有達到目標就一直罰到改善，只有罰 10 萬，嚇阻效果不高。為了改善投資只計算財務因素，不計算公司所造成的環境、社會等成本，近期開始推廣 ESG 投資，加入環境、社會和企業治理因素，以投資鼓勵公司進行改善。不過在 ESG 投資壓力方面，目前還無法做到充分的訊息揭露，因此也難以達到效果。再者，由於電價過低，廠商普遍沒有強烈的誘因投資更大幅度節能的設備，或進行更大幅度的改善。</p>
-							</div>
-							<div class="kb-footer">
-								<h4>更多參考資料</h4>
-								<ul class="kb-link">
-									<li><a href="https://www.youtube.com/watch?v=WCH0CUTqoCc" target="_blank">台電推「需量競價」 提高用電穩定度</a></li>
-								</ul>
-							</div>
-						</div>
 					</div>
 				</div>
 				<div class="btn-wrap">
-					<a href="https://talk.twfuture.care/t/topic/28" id="link1-1" class="kb" target="_blank">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/29" id="link1-2" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/30" id="link1-3" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/31" id="link1-4" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/32" id="link1-5" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/33" id="link1-6" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/34" id="link2-1" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/36" id="link2-2" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/37" id="link2-3" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/38" id="link2-4" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/35" id="link2-5" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
-					<a href="https://talk.twfuture.care/t/topic/39" id="link3-1" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/39" id="link1-1" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/28" id="link2-1" class="kb" target="_blank">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/29" id="link2-2" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/30" id="link2-3" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/31" id="link2-4" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/32" id="link2-5" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/33" id="link2-6" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/34" id="link3-1" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/36" id="link3-2" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/37" id="link3-3" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/38" id="link3-4" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
+					<a href="https://talk.twfuture.care/t/topic/35" id="link3-5" class="kb" target="_blank" style="display: none">對上述的議題有想法嗎？<span>按我加入討論</span></a>
 					<a href="https://talk.twfuture.care/c/energy/question/6" target="_blank">沒有寫到想了解的議題？<span>按我去提問</span></a>
 				</div>
 			</div>
@@ -738,7 +742,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="block bg-gray b07">
+			<!-- <div class="block bg-gray b07">
 				<div class="container padding-xl">
 					<h2>Q&A</h2>
 					<section class="qablock">
@@ -772,7 +776,7 @@
 						</div>
 					</section>
 				</div>
-			</div>
+			</div> -->
 		</main>
 		<footer>
 			<div class="container flex-block-space">

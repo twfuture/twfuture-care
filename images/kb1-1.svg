@@ -1,1 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 447.89 182.24"><defs><style>.cls-1{fill:#323232;}.cls-2,.cls-6{fill:none;}.cls-2,.cls-4{stroke:#231815;}.cls-2,.cls-4,.cls-6{stroke-miterlimit:10;}.cls-3{fill:#231815;}.cls-4{fill:#f7f7f7;stroke-width:0.5px;}.cls-5{fill:#c0e2aa;}.cls-6{stroke:#323232;stroke-width:0.75px;}</style></defs><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><rect class="cls-1" x="22.43" y="101.9" width="7.74" height="75.81"/><line class="cls-2" x1="259.91" y1="96.99" x2="145.43" y2="96.99"/><polygon class="cls-3" points="147.41 94.09 136.57 96.99 147.41 99.9 147.41 94.09"/><polyline class="cls-2" points="3.57 178.48 59.46 178.48 109.33 128.61 444.32 128.61"/><path class="cls-3" d="M3.76,182.24a3.76,3.76,0,1,1,3.76-3.76A3.76,3.76,0,0,1,3.76,182.24Z"/><circle class="cls-3" cx="444.13" cy="128.61" r="3.76"/><polygon class="cls-1" points="214.26 50.92 202.99 71.78 214.26 71.78 208.63 88.82 223.02 65.38 212.08 65.38 214.26 50.92"/><rect class="cls-1" x="45.08" y="83.53" width="9.59" height="93.99"/><path class="cls-2" d="M27.81,73.16s-6.71-25.11,9.59-28,16.78-6.62,28.05-20.09A32.23,32.23,0,0,1,76.3,17.31"/><path class="cls-2" d="M58.77,74.9s.67-10.06,7.4-14.62S77.86,61.6,91.68,47.15s8.82-12.67,29.54-21.23,20.72-8.61,20.72-8.61"/><circle class="cls-4" cx="384" cy="102.54" r="25.72"/><circle class="cls-5" cx="347.45" cy="102.74" r="25.52"/><circle class="cls-1" cx="306.53" cy="101.99" r="25.52"/><path class="cls-6" d="M303.07,11.26V31.93A10.87,10.87,0,0,0,314,42.81h26.82l8,10v-10a10.87,10.87,0,0,0,10.88-10.88V11.26A10.87,10.87,0,0,0,348.77.38H314A10.87,10.87,0,0,0,303.07,11.26Z"/></g></g></svg>
+<svg id="Group_20" data-name="Group 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="438" height="140.156" viewBox="0 0 438 140.156">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_4" data-name="Clip 4" d="M0,0H11V10.706H0Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Clip_14" data-name="Clip 14" d="M0,140.156H438V0H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Stroke_1" data-name="Stroke 1" d="M0,31.146H81.56L107.448,0H427" transform="translate(5 103.17)" fill="none" stroke="#c0e2aa" stroke-miterlimit="10" stroke-width="2"/>
+  <g id="Group_5" data-name="Group 5" transform="translate(0 129.45)">
+    <path id="Clip_4-2" data-name="Clip 4" d="M0,0H11V10.706H0Z" transform="translate(0 0)" fill="none"/>
+    <g id="Group_5-2" data-name="Group 5" clip-path="url(#clip-path)">
+      <path id="Fill_3" data-name="Fill 3" d="M5.5,10.706A5.429,5.429,0,0,1,0,5.353,5.429,5.429,0,0,1,5.5,0,5.429,5.429,0,0,1,11,5.353a5.429,5.429,0,0,1-5.5,5.353" transform="translate(0 0)" fill="#c0e2aa"/>
+    </g>
+  </g>
+  <g id="Group_8" data-name="Group 8" transform="translate(427 97.33)">
+    <path id="Clip_7-2" data-name="Clip 7" d="M0,0H11V10.706H0Z" transform="translate(0 0)" fill="none"/>
+    <g id="Group_8-2" data-name="Group 8" clip-path="url(#clip-path)">
+      <path id="Fill_6" data-name="Fill 6" d="M5.5,10.706A5.429,5.429,0,0,0,11,5.353,5.429,5.429,0,0,0,5.5,0,5.429,5.429,0,0,0,0,5.353a5.429,5.429,0,0,0,5.5,5.353" transform="translate(0 0)" fill="#c0e2aa"/>
+    </g>
+  </g>
+  <path id="Stroke_9" data-name="Stroke 9" d="M83,.973H0" transform="translate(148 72.998)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Fill_11" data-name="Fill 11" d="M16,0,0,4.379,16,8.76Z" transform="translate(135 69.105)" fill="#231815"/>
+  <path id="Clip_14-2" data-name="Clip 14" d="M0,140.156H438V0H0Z" fill="none"/>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path-3)">
+    <path id="Fill_13" data-name="Fill 13" d="M0,134.316H14V0H0Z" transform="translate(27 0.973)" fill="#231815"/>
+    <path id="Stroke_15" data-name="Stroke 15" d="M0,134.316H14V0H0Z" transform="translate(27 0.973)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="4"/>
+    <path id="Fill_16" data-name="Fill 16" d="M.013,25.939C.483,11.164,13.168-.444,28.349.013s27.105,12.806,26.637,27.58S41.829,53.974,26.649,53.519-.457,40.713.013,25.939" transform="translate(243 47.692)" fill="#323232"/>
+    <path id="Fill_17" data-name="Fill 17" d="M55,26.765c0,14.784-12.312,26.767-27.5,26.767S0,41.549,0,26.765,12.313,0,27.5,0,55,11.983,55,26.765" transform="translate(291 47.692)" fill="#f7f7f7"/>
+    <path id="Stroke_18" data-name="Stroke 18" d="M55,26.765c0,14.784-12.312,26.767-27.5,26.767S0,41.549,0,26.765,12.313,0,27.5,0,55,11.983,55,26.765Z" transform="translate(291 47.692)" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-width="0.5"/>
+    <path id="Fill_19" data-name="Fill 19" d="M55,26.765c0,14.784-12.311,26.767-27.5,26.767S0,41.549,0,26.765,12.313,0,27.5,0,55,11.983,55,26.765" transform="translate(351 47.692)" fill="#c0e2aa"/>
+  </g>
+</svg>

@@ -989,49 +989,58 @@ flex-direction:column;}
 .kb-title{
 	background-repeat: no-repeat;
 }
+
 #kb1-1 .kb-title{
 	background-image: url(/images/kb1-1.svg);
-	background-position: 243px 41px;
-	background-size: 389px;
-}
-#kb1-2 .kb-title{
-	background-image: url(/images/kb1-2.svg);
-	background-position: 262px 50px;
-	background-size: 367px;
-}
-#kb1-3 .kb-title{
-	background-image: url(/images/kb1-3.svg);
-	background-position: 324px 32px;
-	background-size: 174px;
-}
-#kb1-4 .kb-title{
-	background-image: url(/images/kb1-4.svg);
-	background-position: 272px 44px;
-	background-size: 409px;
-}
-#kb1-5 .kb-title{
-	background-image: url(/images/kb1-5.svg);
-	background-position: 372px 25px;
-	background-size: 179px
-}
-#kb1-6 .kb-title{
-	background-image: url(/images/kb1-6.svg);
-	background-position: 355px 30px;
-	background-size: 140px
-}
-
-#kb2-1 .kb-title,#kb2-2 .kb-title,#kb2-3 .kb-title,#kb2-4 .kb-title,#kb2-5 .kb-title{
-	background-image: url(/images/kb2-1.svg);
-	background-position: 303px 85px;
-	background-size: 542px;
-}
-
-#kb3-1 .kb-title{
-	background-image: url(/images/kb3-1.svg);
 	background-position: 370px 47px;
 	background-size: 438px;
 }
 
+#kb2-1 .kb-title{
+	background-image: url(/images/kb2-1.svg);
+	background-position: 243px 41px;
+	background-size: 389px;
+}
+
+#kb2-2 .kb-title{
+	background-image: url(/images/kb2-2.svg);
+	background-position: 262px 50px;
+	background-size: 367px;
+}
+
+#kb2-3 .kb-title{
+	background-image: url(/images/kb2-3.svg);
+	background-position: 324px 32px;
+	background-size: 174px;
+}
+
+#kb2-4 .kb-title{
+	background-image: url(/images/kb2-4.svg);
+	background-position: 272px 44px;
+	background-size: 409px;
+}
+
+#kb2-5 .kb-title{
+	background-image: url(/images/kb2-5.svg);
+	background-position: 372px 25px;
+	background-size: 179px
+}
+
+#kb2-6 .kb-title{
+	background-image: url(/images/kb2-6.svg);
+	background-position: 355px 30px;
+	background-size: 140px
+}
+
+#kb3-1 .kb-title, 
+#kb3-2 .kb-title, 
+#kb3-3 .kb-title, 
+#kb3-4 .kb-title, 
+#kb3-5 .kb-title{
+	background-image: url(/images/kb3-1.svg);
+	background-position: 303px 85px;
+	background-size: 542px;
+}
 
 .at-index{
 	display: none;
@@ -1692,33 +1701,42 @@ footer .container{
 	text-align: center;
 	padding-top: 130px;
 }
+
 .inner-page #kb1-1 .kb-title{
 	background-position:top 15px center;
 }
-.inner-page #kb1-2 .kb-title{
-	background-position:top 15px center;
-}
-.inner-page #kb1-3 .kb-title{
-	background-position:top 15px center;
-}
-.inner-page #kb1-4 .kb-title{
-	background-position:center;
-}
-.inner-page #kb1-5 .kb-title{
-	background-position:center;
-}
-.inner-page #kb1-6 .kb-title{
-	background-position:center;
-}
 
-.inner-page #kb2-1 .kb-title,.inner-page #kb2-2 .kb-title,.inner-page #kb2-3 .kb-title,.inner-page #kb2-4 .kb-title,.inner-page #kb2-5 .kb-title{
+.inner-page #kb2-1 .kb-title{
 	background-position:top 15px center;
 }
 
-.inner-page #kb3-1 .kb-title{
+.inner-page #kb2-2 .kb-title{
 	background-position:top 15px center;
 }
 
+.inner-page #kb2-3 .kb-title{
+	background-position:top 15px center;
+}
+
+.inner-page #kb2-4 .kb-title{
+	background-position:center;
+}
+
+.inner-page #kb2-5 .kb-title{
+	background-position:center;
+}
+
+.inner-page #kb2-6 .kb-title{
+	background-position:center;
+}
+
+.inner-page #kb3-1 .kb-title,
+.inner-page #kb3-2 .kb-title,
+.inner-page #kb3-3 .kb-title,
+.inner-page #kb3-4 .kb-title,
+.inner-page #kb3-5 .kb-title{
+	background-position:top 15px center;
+}
 
 .inner-page .kb-content{
 	padding-left: 5%;
