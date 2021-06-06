@@ -994,7 +994,11 @@ flex-direction:column;}
   background-repeat: no-repeat;
 }
 
-#kb1-1 .kb-title{
+#kb1-1 .kb-title,
+#kb1-2 .kb-title,
+#kb1-3 .kb-title,
+#kb1-4 .kb-title,
+#kb1-5 .kb-title{
   background-image: url(/images/kb1-1.svg);
   background-position: 370px 47px;
   background-size: 438px;
