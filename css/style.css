@@ -1165,6 +1165,7 @@ flex-direction:column;}
 .top-know p{
   font-size: 1.25em;
   line-height: 1.8em;
+  margin-top: 0.8em;
   margin-bottom: 0.8em;
 }
 
@@ -1172,7 +1173,7 @@ flex-direction:column;}
   margin-top: 55px;
 }
 
-.top-know section h2{
+.top-know h2{
   font-size: 1.5em;
   font-weight: 500;
 }
