@@ -537,6 +537,10 @@ header .container{
   justify-content: space-between;
 }
 
+.flex-block-space a{
+  color: #fff;
+}
+
 
 .flex-block{
   display: flex;
