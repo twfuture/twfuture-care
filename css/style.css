@@ -1180,6 +1180,7 @@ flex-direction:column;}
 .top-know h2{
   font-size: 1.5em;
   font-weight: 500;
+  margin-top: 1em;
 }
 
 .hastag{
@@ -1622,9 +1623,18 @@ footer .container{
   justify-content: space-between;
 }
 
+.f-link a{
+  color: #000000;
+}
+
 
 .f-txt{
   font-size: 0.875em;
+}
+
+.f-txt a{
+  font-size: 0.875em;
+  color: #000000;
 }
 
 @media screen and (max-width:992px){
