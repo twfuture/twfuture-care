@@ -1032,6 +1032,18 @@ flex-direction:column;}
   background-repeat: no-repeat;
 }
 
+.kb-b-btn{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #323232;
+  display: block;
+  line-height: 60px;
+  font-size: 1.5em;
+  width: 50%;
+  margin-left: 25%;
+}
+
 #kb1-1 .kb-title{
   background-image: url(/images/kb1-1.svg);
   background-position: 370px 47px;
